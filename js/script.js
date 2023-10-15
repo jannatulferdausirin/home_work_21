@@ -1,10 +1,12 @@
 // querySelectors=============
-// let text=document.querySelector('h1');
-// let button=document.querySelector('button');
-// button.addEventListener("click",function(){
-//     text.style.color="blue";
-//     text.style.background="gold";
-// })
+let text=document.querySelector('h1');
+let button=document.querySelector('button');
+button.addEventListener("click",function(){
+    text.style.color="white";
+    text.style.background="olivedrab";
+   
+    text.style.fontSize="50px";
+})
 
 // ==================function=========
 $("#addColor").click(function(){

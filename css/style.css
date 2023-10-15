@@ -32,3 +32,14 @@ button:hover{
   color: whitesmoke;
   margin-bottom: 20px;
 }
+.main_div{
+    background:rgb(161, 217, 251);
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: purple;
+   font-weight: 700;
+   font-family:cursive;
+   padding-top: 15px;
+}
