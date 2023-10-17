@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 button {
   display: block;
   margin: auto;
@@ -11,6 +16,24 @@ button {
 button:hover{
     background-color: rgb(214, 35, 95);
     color:gold;
+}
+a {
+  display: inline;
+  margin-bottom: 5px;
+  padding: 15px 25px;
+  background: olivedrab;
+  border-radius: 25px;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+}
+a:hover{
+    background-color: rgb(214, 35, 95);
+    color:gold;
+}
+.buttonChange{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .box {
   margin: auto;
@@ -40,6 +63,9 @@ h1{
     text-align: center;
     color: purple;
    font-weight: 700;
-   font-family:cursive;
+   font-family:sans-serif;
    padding-top: 15px;
+   font-size: 50px;
+   margin-bottom: 20px;
+  
 }
